@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>ABOUT OUR MODELS</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="model.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#"><b>Chronic kidney disease</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('about') }}">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('project') }}">Model</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('form') }}">Form</a>
+      </li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>This is basic Machine Learning based WebApp that can predict CHRONIC KIDNEY DISEASE.</h2>
+        <p>These Machine Learning models  are trained on large datasets.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        
+            <br>1)LOGISTIC REGRESSION: <strong>96.25%</strong></li>
+            <br>2)K NEAREST NEIGHBOUR: <strong>96.5%</strong></li>
+            <br>3)ARTIFICIAL NEURAL NETWORKS: <strong>99%</strong></li>
+            
+        </ul>
+        <br>
+      
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4><strong>LOGISTIC REGRESSION</strong></h4>
+               
+               <li>Logistic Regression measures the relationship between the dependent variable (label to be predicted) and the one or more independent variables (input features), by estimating probabilities using its underlying logistic function.</li>
+               <li>These probabilities must be converted into binary values  to actually make a prediction</li>
+                <li>This is the task of the logistic function, also called the sigmoid function.The Sigmoid-Function is an S-shaped curve that can take any real-valued number and map it into a value between the range of 0 and 1, but  will not exceed those limits</li>
+                <li>These values between 0 and 1 will be converted  into either 0 or 1 using a threshold classifier</li>
+          
+               </ul>
+               </p>
+                
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4><strong>K NEAREST NEIGHBOURS</strong></h4>
+                <p><ul>
+                <li>All  instances will  correspond to points in an n-dimensional feature space</li>
+                <li>Each of the instances is represented with a set of numerical attributes.</li>
+                <li> Each of the training data  has a set of vectors and a class label which is associated with each of the vectors</li>
+                <li>Classification is performed  by comparing feature vectors of different K nearest points</li>
+                <li>Select the K-nearest neighbours to E</li>
+                <li>Allocate E to the most common class among its K-nearest neighbors</li>
+                </ul></p>
+               
+            </div>
+        </div>
+
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+                <h4><strong>Artificial Neural Network</strong></h4>
+                <p>First we must create the models architecture, then we will add 2 layers, the first layer with 256 neurons and the ‘ReLu’ activation function with a normal distribution initializer for the weights. Since that layer is the first layer we must also specify the number of features/columns in the data set len(X.columns).
+The second layer which happens to be the last layer as well, will have 1 neuron and use the ‘hard_sigmoid’ activation function..</p>
+ 
+             
+      </div>
+        </div>
+
+        <br>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+</body>
+</html>

@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #3494e6, #ec6ead);
+}
+
+.row{
+	border:2px solid #b91d28;
+
+}

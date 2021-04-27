@@ -1,0 +1,22 @@
+body{
+	font-family: 'Merienda', cursive;
+	  background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b);
+}
+
+h1,h3,h4{
+	color: red;
+}
+
+
+.card{
+	border: 5px solid #c2c2c2;
+	margin:15px;
+	padding: 3px;
+	text-align: center;
+	display: inline-block;
+}
+
+.card h6{
+	color:
+#b91d28;
+}

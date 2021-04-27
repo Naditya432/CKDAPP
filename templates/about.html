@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ABOUT</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="about.css">
+<style>
+body{
+	background: linear-gradient(to right, #ffaf7b, #d76d77, #ffaf7b);
+	  font-family: 'Merienda', cursive;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+
+}
+
+h1,h3,h4{
+	color: red;
+}
+
+
+.card{
+	border: 5px solid #c2c2c2;
+	margin:15px;
+	padding: 3px;
+	text-align: center;
+	display: inline-block;
+}
+
+.card h6{
+	color:
+#b91d28;
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  <a class="navbar-brand" href="#"><b>Chronic kidney disease</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ url_for('home') }}">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('about') }}">About <span class="sr-only">(current)</span></a>
+      </li>
+  
+      <li class="nav-item">
+        <a class="nav-link" href="{{ url_for('form') }}">Predict</a>
+      </li>
+      
+      
+    </ul>
+    
+  </div>
+</nav>
+	<br><br>
+	<center>
+
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>ACKNOWLEDGEMENT </h2>
+        <p>We Would like to Express our special thanks of gratitude to our project mentor <strong>Dr Swarnalatha K S</strong> who gave us a golden opportunity to do this project and also provided consistent help and support in the completion of the project 
+</p>
+        
+</div>
+</div>
+      
+<div class="container">
+    <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black;">
+        <h2>This is basic Machine Learning based WebApp that can predict CHRONIC KIDNEY DISEASE.</h2>
+        <p>These Machine Learning models  are trained on large datasets.</p>
+        <br>
+        <h2>Model Accuracies:</h2>
+        
+            <br>1)LOGISTIC REGRESSION: <strong>96.25%</strong></li>
+            <br>2)K NEAREST NEIGHBOUR: <strong>96.5%</strong></li>
+            <br>3)ARTIFICIAL NEURAL NETWORKS: <strong>99%</strong></li>
+            
+        </ul>
+        <br>
+</div>
+</div>
+      
+        <br>
+        <div class="row">
+            <div class="col-md-12 card card-body" style="box-shadow: 0 0 5px black; margin: 5px;">
+
+<center><h4><b>Our Team</b></h4></center>
+<div class="card" style="width: 25rem;">
+
+  <img class="card-img-top" src="{{url_for('static', filename='aditya.jpeg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><b>N ADITYA NAYAK</b></h5>
+    <h6>adityanayak864@gmail.com</h6>
+    <h6>7624949240</h6>
+    <p class="card-text"><b>Areas of interest:</b>Machine Learning,Mobile App Development</p>
+  </div>
+</div>
+
+<div class="card" style="width: 25rem;">
+
+<img class="card-img-top" src="{{url_for('static', filename='pavan.jpeg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><b>PAWAN KUMAR</b></h5>
+    <h6>prempawan98@gmail.com</h6>
+    <h6>9534114266</h6>
+    <p class="card-text"><b>Areas of interest:</b>Mobile App Development,Web Development</p>
+  </div>
+</div>
+
+
+<div class="card" style="width: 25rem;">
+
+  <img class="card-img-top" src="{{url_for('static', filename='pranav.jpeg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><b>PRANAV T R</b></h5>
+    <h6>pranavtr88288@gmail.com</h6>
+    <h6>9481700733</h6>
+    <p class="card-text"><b>Areas of interest:</b>Cloud computing,Machine Learning</p>
+  </div>
+</div>
+
+<div class="card" style="width: 25rem;">
+
+  <img class="card-img-top" src="{{url_for('static', filename='shubajit.jpeg')}}" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title"><b>SHUBAJIT DAS</b></h5>
+    <h6>shubhajitd07@gmail.com</h6>
+    <h6>9714841983</h6>
+    <p class="card-text"><b>Areas of interest:</b>Machine Learning,Deep Learning</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
